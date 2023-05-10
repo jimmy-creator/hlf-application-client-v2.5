@@ -6,7 +6,7 @@ const { promises: fs } = require('fs');//delete promises
 const path = require('path');
 const { TextDecoder } = require('util');
 
-const channelName =  ('mychannel');//analyse envOrDefault
+const channelName =  ('mychannel');
 const chaincodeName =  ('basic');
 const mspId =  ('Org1MSP');
 
